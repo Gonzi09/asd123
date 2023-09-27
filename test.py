@@ -3,6 +3,7 @@ import time
 
 Led = 17
 
+GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(Led, GPIO.OUT)
 
